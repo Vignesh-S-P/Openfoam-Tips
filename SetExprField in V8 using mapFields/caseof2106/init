@@ -1,0 +1,15 @@
+#!/bin/bash
+
+#do run this with openfoam v2012
+#create mesh
+blockMesh
+
+#Copy the 0.orig to 0
+cp -r 0.orig 0
+
+#set Expression based Fields
+setExprFields
+
+
+
+

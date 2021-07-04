@@ -1,0 +1,6 @@
+#!/bin/bash
+
+#do run this with openfoam v8
+#create mesh
+foamCleanTutorials
+rm -r 0
